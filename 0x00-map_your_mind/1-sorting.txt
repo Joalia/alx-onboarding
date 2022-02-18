@@ -1,0 +1,29 @@
+Pseudo code
+
+variables
+	tab : table[n] float
+	i,j : integer
+	min: float
+start
+	tab[0] = read(n1)
+	tab[1] = read(n2)
+	tab[3] = read(n3)
+	
+	idx_min = 0
+	i = 1
+	while idx_min < 3
+
+		min = tab[idx_min]
+		j = i
+		while j < 3:
+			if (tab[j] < min)
+	
+				tab[idx_min] = tab[j]
+				tab[j] = min
+				min = tab[idx_min]
+			j = j+1
+		i = i+1
+		idx_min = idx_min + 1
+
+	for k from 0 to 2:
+		print(tab[k])
