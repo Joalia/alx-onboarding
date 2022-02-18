@@ -1,14 +1,14 @@
 Pseudo code
 
 variables
-	sum : float
+	sum, n : float
 
 function AskNumber(): float
 	print("enter a number")
 	n = Read(n)
 	if n >= 0:
 		return n
-	else 
+	else:
 		return -1
 start
 

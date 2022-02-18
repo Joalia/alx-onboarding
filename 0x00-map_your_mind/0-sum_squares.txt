@@ -5,12 +5,21 @@ Pseudo code:
 variables:
 	som : float
 	sqr: float
-Start
 
-	read input
-	som=0
-	for element in input:
-		sqr = element * element
+function AskNumber(): float
+	print("enter a number")
+	n = Read(n)
+	if n != 0:
+		return n
+	else:
+		return 0
+Start
+	som = 0
+	n = AskNumber()
+
+	while n!= 0:
+		sqr = n * n
 		som = som + sqr
+		n = AskNumber()
 	print(som)
 End
