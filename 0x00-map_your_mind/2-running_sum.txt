@@ -1,0 +1,22 @@
+Pseudo code
+
+variables
+	sum : float
+
+function AskNumber(): float
+	print("enter a number")
+	n = Read(n)
+	if n >= 0:
+		return n
+	else 
+		return -1
+start
+
+	sum = 0
+	n = AskNumber()
+
+	while n != -1:
+		sum = sum + n
+		n = AskNumber()
+
+	print(sum)
