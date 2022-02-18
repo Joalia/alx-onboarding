@@ -1,0 +1,16 @@
+
+Pseudo code:
+
+
+variables:
+	som : float
+	sqr: float
+Start
+
+	read input
+	som=0
+	for element in input:
+		sqr = element * element
+		som = som + sqr
+	print(som)
+End
